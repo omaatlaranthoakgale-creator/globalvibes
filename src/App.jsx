@@ -1,36 +1,5 @@
 const categories = ['All', 'Trending', 'Music', 'Gaming', 'Travel', 'Live'];
 
-const cards = [
-  {
-    title: 'Kgosi | School Days Vlog',
-    meta: 'Kgosi • 1.4M views • 1 day ago',
-    duration: '19:55',
-    image:
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80'
-  },
-  {
-    title: 'Jaden | Road Trip & Beats',
-    meta: 'Jaden • 876K views • 4 hours ago',
-    duration: '09:55',
-    image:
-      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=80'
-  },
-  {
-    title: 'Best Wireless Earbuds 2024 Review',
-    meta: 'TechLoop • 540K views • 3 days ago',
-    duration: '15:45',
-    image:
-      'https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=900&q=80'
-  },
-  {
-    title: 'Relaxing Forest Sounds & Birds',
-    meta: 'NatureCalm • 210K views • 5 days ago',
-    duration: '22:10',
-    image:
-      'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80'
-  }
-];
-
 const navItems = [
   { label: 'Home', active: true, icon: '⌂' },
   { label: 'Search', icon: '⌕' },
@@ -44,6 +13,15 @@ function App() {
     <div className="app-shell">
       <div className="ambient ambient-left" />
       <div className="ambient ambient-right" />
+
+      <div className="brand-hero">
+        <div className="back-arrow">←</div>
+        <div className="brand-wordmark" aria-label="GlobalVibes brand">
+          <span className="brand-global">Global</span>
+          <span className="brand-vibes">Vibes</span>
+        </div>
+        <div className="brand-subtitle">Beautiful • Modern • Connected</div>
+      </div>
 
       <div className="phone-stack">
         <div className="mini-phone phone-left">
